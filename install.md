@@ -81,10 +81,32 @@ sudo apt-get install -y nvidia-open
 
 ## Check nvidia-smi command
 ```bash
-sudo nvidia-smi
+nvidia-smi
 ```
 ```bash
+krgadmin@antares-1:~$ sudo nvidia-smi
+[sudo] password for krgadmin:
+Fri Mar  7 14:56:45 2025
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.124.06             Driver Version: 566.36         CUDA Version: 12.7     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 4080 ...    On  |   00000000:01:00.0 Off |                  N/A |
+| N/A   44C    P8              3W /  120W |       0MiB /  12282MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
 
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+krgadmin@antares-1:~$
 ```
 
 # Download Krugle Package
