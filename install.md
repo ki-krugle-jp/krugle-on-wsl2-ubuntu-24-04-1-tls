@@ -1,4 +1,28 @@
 
+# Access
+
+## Ubuntuパッケージ取得用
+archive.ubuntu.com
+security.ubuntu.com
+
+## NVIDIA関連のパッケージ取得用
+developer.download.nvidia.com
+docs.nvidia.com
+developer.nvidia.com
+
+## Krugleファイル取得用
+downloads.krugle.org
+
+## LLMモデルダウンロード用(hugging face CDNを含む)
+cdn-lfs-us-1.hf.co
+cdn-lfs-eu-1.hf.co
+cdn-lfs.hf.co
+cdn-lfs.huggingface.co
+huggingface.co
+
+## ツール、サンプルファイル、スクリプト等の提供用 (Option)
+github.com
+
 # Enable WSL2 and Install Ubuntu 24.04.1 LTS
 
 https://learn.microsoft.com/ja-jp/windows/wsl/basic-commands#install
